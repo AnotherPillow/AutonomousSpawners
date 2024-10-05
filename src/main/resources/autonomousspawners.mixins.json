@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.anotherpillow.autonomousspawners.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "AutonomousSpawners.refmap.json",
+  "mixins": [
+    "BaseSpawnerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
